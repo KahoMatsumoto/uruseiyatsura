@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrap {
+	background-color: #808080;
+}
+body {
+	background-color: rgba(255,255,79,1.00);
+}
+footer {
+	background-color: rgba(255,255,79,1.00);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+header {
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+main .itemL .star {
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	position: absolute;
+}
+main .itemL .contents {
+	width: 187px;
+	height: 187px;
+	left: 0px;
+	top: 0px;
+	z-index: 0;
+	position: absolute;
+}
+#wrap main .itemL {
+	position: relative;
+}
+#wrap main .itemR {
+	position: relative;
+	left: 180px;
+}
+div .itemR .text {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.left {
+	position: absolute;
+}
