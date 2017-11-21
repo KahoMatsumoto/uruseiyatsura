@@ -4,6 +4,8 @@
 #wrap {
 	background-color: #808080;
 	position: relative;
+
+	padding-bottom: 10px;
 }
 body {
 	background-color: rgba(255,255,79,1.00);
@@ -17,26 +19,29 @@ footer {
 header {
 	text-align: center;
 }
+p {
+	text-align: center;
+}
 .line {
 	position: relative;
-	width: 768px;
+	width: 748px;
 	height: 187px;
 	margin: 0 auto;
 }
 .left {
 	position: absolute;
-	width: 384px;
+	width: 374px;
 	height: 187px;
 }
 .right {
 	position: absolute;
-	width: 384px;
+	width: 374px;
 	height: 187px;
 	left: 374px;
 }
 
 .itemL {
-	position: relative;
+	position: absolute;
 }
 .itemL .star {
 	left: 0px;
@@ -54,7 +59,7 @@ header {
 }
 
 .itemR {
-	position: relative;
+	position: absolute;
 	left: 187px;
 }
 .itemR .text {
