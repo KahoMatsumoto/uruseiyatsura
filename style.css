@@ -3,6 +3,7 @@
 
 #wrap {
 	background-color: #808080;
+	position: relative;
 }
 body {
 	background-color: rgba(255,255,79,1.00);
@@ -16,16 +17,34 @@ footer {
 header {
 	text-align: center;
 }
-p {
-	text-align: center;
+.line {
+	position: relative;
+	width: 768px;
+	height: 187px;
+	margin: 0 auto;
 }
-main .itemL .star {
+.left {
+	position: absolute;
+	width: 384px;
+	height: 187px;
+}
+.right {
+	position: absolute;
+	width: 384px;
+	height: 187px;
+	left: 374px;
+}
+
+.itemL {
+	position: relative;
+}
+.itemL .star {
 	left: 0px;
 	top: 0px;
 	z-index: 1;
 	position: absolute;
 }
-main .itemL .contents {
+.itemL .contents {
 	width: 187px;
 	height: 187px;
 	left: 0px;
@@ -33,18 +52,15 @@ main .itemL .contents {
 	z-index: 0;
 	position: absolute;
 }
-#wrap main .itemL {
+
+.itemR {
 	position: relative;
+	left: 187px;
 }
-#wrap main .itemR {
-	position: relative;
-	left: 180px;
-}
-div .itemR .text {
+.itemR .text {
 	position: absolute;
 	top: 20px;
 	left: 20px;
-}
-.left {
-	position: absolute;
+	width: 147px;
+	height: 147px;
 }
